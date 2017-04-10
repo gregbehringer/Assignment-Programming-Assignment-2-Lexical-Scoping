@@ -8,7 +8,7 @@ conjuction with its companion function cacheSolve (below).  makeCacheMatrix make
 location and cacheSolve calculates the inverse of the stored matrix object.  These tandem functions, 
 however, can only calculate the inverses of matrices with inverses (non-singular).
 
-### Some preliminary consideration 
+### Some preliminary considerations
 
 Testing of the the cache/calc function is being performed on a very simple 2 x2 matrix
 EXAMPLE:  A<-matrix(c(1,2,3,4),nrow = 2,ncol = 2)

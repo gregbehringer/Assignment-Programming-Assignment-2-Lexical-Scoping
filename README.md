@@ -11,11 +11,13 @@ however, can only calculate the inverses of matrices with inverses (non-singular
 ### Some preliminary considerations
 
 Testing of the the cache/calc function is being performed on a very simple 2 x2 matrix
-EXAMPLE:  A<-matrix(c(1,2,3,4),nrow = 2,ncol = 2)
+
++ EXAMPLE:  A<-matrix(c(1,2,3,4),nrow = 2,ncol = 2)
 
 This is for testing purposes, and something more complex will likely be needed for real world applications.
-EXAMPLE:  To generate a 3 x 3 square matrix with randomized data the following code could be used...
-B <- matrix(data = rnorm(300,10,2), nrow = 3, ncol = 3)
+
++ EXAMPLE:  To generate a 3 x 3 square matrix with randomized data the following code could be used...
++ B <- matrix(data = rnorm(300,10,2), nrow = 3, ncol = 3)
 
 1. NOTE:  This function will only return an inverse for non-singular matrices.
 2. NOTE:  I am unsure is all square matrices are non-singular, therefore,

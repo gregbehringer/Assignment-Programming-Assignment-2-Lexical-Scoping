@@ -17,8 +17,8 @@ This is for testing purposes, and something more complex will likely be needed f
 EXAMPLE:  To generate a 3 x 3 square matrix with randomized data the following code could be used...
 B <- matrix(data = rnorm(300,10,2), nrow = 3, ncol = 3)
 
-=NOTE:  This function will only return an inverse for non-singular matrices.
-=NOTE:  I am unsure is all square matrices are non-singular, therefore,
+1. NOTE:  This function will only return an inverse for non-singular matrices.
+2. NOTE:  I am unsure is all square matrices are non-singular, therefore,
 the function "is.singular.matrix" is a good pre-check.  It returns "TRUE" if singularity
 is present (non-invertible), or "FALSE" if an inverse exists.
-=NOTE:  requires "matrixcalc" package
+3. NOTE:  requires "matrixcalc" package
